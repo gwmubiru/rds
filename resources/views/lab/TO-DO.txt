@@ -1,0 +1,20 @@
+TO-DO
+============
+
+
+Lab Activities:
+	1) 	Create work sheet (basically select 22 samples and add 4 fields of test-kit data)
+	2) 	Show list of worksheets
+			in progress => Has samples without results: i.e test result = NOT_YET_TESTED
+			completed	=> All the samples assigned to them have results [POSITIVE, NEGATIVE, INCONCLUSIVE]
+	3) 	Upload CSV with results
+	4) 	Do repeat tests, if needed
+	5) 	Delete whole worksheet (makes its samples available to go on another worksheet)
+	6) 	Detach sample from worksheet (makes detached samples available to go on another worksheet)
+	7)	Batches ready for dispatch from lab (i.e testing completed and results ready)
+
+2) 	Show list of worksheets
+Worksheet No	Date Created	[Created By]	[nSamples]	HIQ CAP No	Spek Kit No	
+Date Run	Date Reviewed	[Status=in process, completed]	Task=view|print|upload results (CSV) | delete
+
+2)

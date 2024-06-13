@@ -1,0 +1,36 @@
+Laravel will install the version based on the active version on php 
+
+Install curl for php 8.1
+sudo apt-get install php8.1-curl
+install xml for php8.1
+apt-get install php8.1-xml
+apt-get install php8.1-gd 
+
+to see the installed php extensions
+php --ini
+
+to include the auth scaffolding for login
+composer require laravel/ui
+php artisan ui bootstrap --auth
+
+
+Each time you add a new resource run
+npm run build
+
+To add jquery as module, run
+npm install jquery --save-dev
+
+For Laravel, to include it, add the following to resources/js/app.js
+import $ from 'jquery';
+window.$ = $;
+
+To add datatables as module, run 
+npm i laravel-datatables-vite --save-dev
+
+For laravel, to include it, add the following to resources/js/app.js
+import 'laravel-datatables-vite';
+
+N.B is you had imported bootsrap, to avoid conflicts, you can turn off bootstrap since laravel-datatables loads also
+
+Since you will use datatables in laravel application, install it in the php app
+composer require yajra/laravel-datatables-oracle
