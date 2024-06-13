@@ -120,7 +120,7 @@ class eidsrApiController extends Controller {
 
 			$data = $request->all();
 
-			if(array_key_exists('key',$data) && $data['key'] == env('RECDTS_API_KEY'))
+			if(array_key_exists('data_id',$data) && $data['data_id'] == env('RECDTS_API_KEY'))
 			{
 				$patient_data = [
 				'data_entry_date' => array_key_exists('data_entry_date', $data) ? $data['data_entry_date'] : "",
